@@ -157,6 +157,8 @@ curl -X GET "https://your-backend-url/sim-details/SIM1234567890"
 
 4. Use Postman or any REST client to interact with the API.
 
+ [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/29106156-7ed4c8e1-416f-4700-8694-35b8d2d52d6a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D29106156-7ed4c8e1-416f-4700-8694-35b8d2d52d6a%26entityType%3Dcollection%26workspaceId%3D859d29de-bea7-40c6-8c22-1c301a012b8b)
+
 ## Conclusion
 
 While the frontend is currently non-functional, the backend is fully operational and supports all necessary API interactions. You can manually test all features using the above APIs.
