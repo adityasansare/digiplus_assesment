@@ -127,25 +127,31 @@ Here are the API endpoints available:
 
 Since the frontend is not functioning, you can use tools like **Postman**, **curl**, or any other REST client to manually interact with the API.
 
-### Example using `curl`:
+### Example using `POSTMAN`:
 
 #### Add SIM Card:
 ```bash
-curl -X POST "https://your-backend-url/add-sim" \
+ POST "https://digiplus-assesment.onrender.com/add-sim" \
 -H "Content-Type: application/json" \
 -d '{"simNumber": "SIM1234567890", "phoneNumber": "1234567890"}'
 ```
 
 #### Activate SIM Card:
 ```bash
-curl -X POST "https://your-backend-url/activate" \
+ POST "https://digiplus-assesment.onrender.com/activate" \
+-H "Content-Type: application/json" \
+-d '{"simNumber": "SIM1234567890"}'
+```
+#### Deactivate SIM Card:
+```bash
+ POST "https://digiplus-assesment.onrender.com/deactivate" \
 -H "Content-Type: application/json" \
 -d '{"simNumber": "SIM1234567890"}'
 ```
 
 #### Get SIM Card Details:
 ```bash
-curl -X GET "https://your-backend-url/sim-details/SIM1234567890"
+ GET "https://digiplus-assesment.onrender.com/sim-details/SIM1234567890"
 ```
 
 ## Project Structure
