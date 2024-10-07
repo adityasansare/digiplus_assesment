@@ -132,21 +132,18 @@ Since the frontend is not functioning, you can use tools like **Postman**, **cur
 #### Add SIM Card:
 ```bash
  POST "https://digiplus-assesment.onrender.com/add-sim" \
--H "Content-Type: application/json" \
--d '{"simNumber": "SIM1234567890", "phoneNumber": "1234567890"}'
+ '{"simNumber": "SIM1234567890", "phoneNumber": "1234567890"}'
 ```
 
 #### Activate SIM Card:
 ```bash
  POST "https://digiplus-assesment.onrender.com/activate" \
--H "Content-Type: application/json" \
--d '{"simNumber": "SIM1234567890"}'
+ '{"simNumber": "SIM1234567890"}'
 ```
 #### Deactivate SIM Card:
 ```bash
  POST "https://digiplus-assesment.onrender.com/deactivate" \
--H "Content-Type: application/json" \
--d '{"simNumber": "SIM1234567890"}'
+'{"simNumber": "SIM1234567890"}'
 ```
 
 #### Get SIM Card Details:
