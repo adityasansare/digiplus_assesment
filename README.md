@@ -159,6 +159,26 @@ curl -X GET "https://your-backend-url/sim-details/SIM1234567890"
 
  [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/29106156-7ed4c8e1-416f-4700-8694-35b8d2d52d6a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D29106156-7ed4c8e1-416f-4700-8694-35b8d2d52d6a%26entityType%3Dcollection%26workspaceId%3D859d29de-bea7-40c6-8c22-1c301a012b8b)
 
+## How to Run Locally
+
+If you'd like to run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/adityasansare/digiplus_assesment.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the server:
+   ```bash
+   nodemon server.js
+   ```
+
+
 ## Conclusion
 
 While the frontend is currently non-functional, the backend is fully operational and supports all necessary API interactions. You can manually test all features using the above APIs.
